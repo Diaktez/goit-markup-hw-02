@@ -117,19 +117,7 @@ nav {
 }
 /* #endregion feature */
 /* #region team */
-.team {
-  background-color: #f4f4fd; /* Цвет фона */
-}
-.team-main {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.team-li {
-  background-color: #ffffff;
-}
+
 .team-mark {
   font-weight: 500;
   font-size: 20px;
@@ -145,7 +133,7 @@ nav {
 }
 /* #endregion team */
 /* #region portfolio */
-.team-main {
+.portfolio-main {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -171,7 +159,6 @@ nav {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
-  color: #4d5ae5;
 }
 .footer-spa {
   color: #f4f4fd;
