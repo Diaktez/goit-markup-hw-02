@@ -48,6 +48,9 @@ nav {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.logo span {
+  color: #2e2f42;
+}
 .nav-ul {
   font-weight: 500;
   font-size: 16px;
@@ -91,7 +94,7 @@ nav {
   background-color: #2e2f42;
   text-align: center;
 }
-.hero-h1 {
+.hero-h-main {
   color: #ffffff;
 }
 .hero-button {
@@ -115,9 +118,10 @@ nav {
 .feature {
   margin: 120px auto; /* Отступ сверху 120px, центрируем */
 }
-.feature h2 {
+.feature-h-main {
   display: none;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .feature ul {
   justify-content: center; /* Центрируем */
@@ -126,7 +130,7 @@ nav {
   max-width: 264px; /* Ограничение ширины */
   text-align: left;
 }
-.feature h3 {
+.feature-strategy {
   margin-bottom: 10px;
 }
 .feature p {
@@ -140,11 +144,10 @@ nav {
 .team {
   background-color: #f4f4fd; /* Цвет фона */
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .team h2 {
-  margin-bottom: 40px; /* Добавляем отступ снизу для разделения заголовка и контента */
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team ul {
   display: flex;
@@ -156,16 +159,14 @@ nav {
 .team li {
   background-color: #fff;
   width: 264px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.team h3 {
-  margin-top: 32px;
+.tim-mark {
+  color: #2e2f42;
 }
-.team p {
-  margin-top: 8px;
+.tim-product {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion team */
 /* #region portfolio */
