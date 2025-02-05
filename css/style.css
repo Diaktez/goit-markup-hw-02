@@ -4,7 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-/* #region header */
 .header-main {
   justify-content: space-between;
   align-items: center;
@@ -33,18 +32,14 @@ nav {
   color: #2e2f42;
 }
 .nav-ul-a {
-  text-decoration: none; /* Убираем подчеркивание */
   font-size: 16px;
   color: #2e2f42;
 }
 .nav-ul-a:hover {
-  color: #404bbf; /* Изменение цвета при наведении */
+  color: #404bbf;
 }
 .nav-ul-a:focus {
   color: #404bbf;
-}
-.nav-ul-a:active {
-  color: #404bbf; /* Цвет при клике */
 }
 
 .address {
@@ -62,8 +57,7 @@ nav {
 .address-li:focus {
   color: #404bbf;
 }
-/*  #endregion header */
-/* #region section hero */
+
 .hero {
   background-color: #2e2f42;
 }
@@ -90,8 +84,7 @@ nav {
 .hero-button:focus {
   background-color: #404bbf;
 }
-/* #endregion section hero */
-/* #region feature */
+
 .feature {
   background-color: #f4f4fd;
 }
@@ -108,8 +101,7 @@ nav {
   line-height: 1.5;
   color: #434455;
 }
-/* #endregion feature */
-/* #region team */
+
 .team {
   background-color: #f4f4fd;
 }
@@ -137,8 +129,7 @@ nav {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* #endregion team */
-/* #region portfolio */
+
 .portfolio-main {
   font-size: 36px;
   line-height: 1.11;
@@ -161,8 +152,6 @@ nav {
   color: #434455;
 }
 
-/* #endregion portfolio */
-/* #region footer */
 .footer {
   background-color: #2e2f42;
 }
@@ -174,4 +163,3 @@ nav {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-/* #endregion footer */
