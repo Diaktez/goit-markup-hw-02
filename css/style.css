@@ -3,14 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
-.header-main {
-  justify-content: space-between;
-  align-items: center;
-}
-nav {
-  align-items: center;
-}
 .logo {
   align-items: center;
   font-family: 'Raleway', sans-serif;
