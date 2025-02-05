@@ -40,17 +40,13 @@ nav {
 }
 .logo {
   align-items: center;
-
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo {
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .nav-ul {
   font-weight: 500;
@@ -62,7 +58,7 @@ nav {
 .nav-ul-a {
   text-decoration: none; /* Убираем подчеркивание */
   font-size: 16px;
-  transition: color 0.3s ease, border-bottom 0.3s ease; /* Плавные эффекты */
+  color: #2e2f42;
 }
 .nav-ul-a:hover {
   color: #404bbf; /* Изменение цвета при наведении */
@@ -72,7 +68,6 @@ nav {
 }
 .nav-ul-a:active {
   color: #404bbf; /* Цвет при клике */
-  border-bottom: 3px solid #404bbf; /* Подчеркивание при активном состоянии */
 }
 
 .address {
@@ -92,6 +87,13 @@ nav {
 }
 /*  #endregion header */
 /* #region section hero */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.hero-h1 {
+  color: #ffffff;
+}
 .hero-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -100,8 +102,9 @@ nav {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.hero-butto:hover {
+.hero-button:hover {
   background-color: #404bbf;
 }
 .hero-button:focus {
