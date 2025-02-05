@@ -3,6 +3,13 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -76,9 +83,6 @@ body {
   background-color: #404bbf;
 }
 
-.feature {
-  background-color: #f4f4fd;
-}
 .feature-strategy {
   font-weight: 500;
   font-size: 20px;
