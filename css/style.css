@@ -22,7 +22,7 @@ nav {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo span {
+.log {
   color: #2e2f42;
 }
 .nav-ul {
@@ -93,22 +93,20 @@ nav {
 /* #endregion section hero */
 /* #region feature */
 .feature {
+  background-color: #f4f4fd;
 }
 .feature-h-main {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.feature h2 {
-  color: #2e2f42;
-}
+
 .feature ul {
   justify-content: center; /* Центрируем */
 }
-.feature li {
-  text-align: left;
-}
-.feature-strategy {
-  margin-bottom: 10px;
-}
+
 .feature p {
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -117,7 +115,20 @@ nav {
 }
 /* #endregion feature */
 /* #region team */
-
+.team {
+  background-color: #f4f4fd;
+}
+.team-main {
+  font-family: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-li {
+  background-color: #ffffff;
+}
 .team-mark {
   font-weight: 500;
   font-size: 20px;
