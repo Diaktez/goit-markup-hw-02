@@ -68,7 +68,6 @@ nav {
   background-color: #2e2f42;
 }
 .hero-h-main {
-  color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -148,7 +147,7 @@ nav {
 /* #region portfolio */
 .portfolio {
 }
-.portfolio-main {
+.team-main {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -176,7 +175,7 @@ nav {
   background-color: #2e2f42;
   color: #4d5ae5;
 }
-.footer-logo-span {
+.footer-span {
   color: #f4f4fd;
 }
 .footer-a {
