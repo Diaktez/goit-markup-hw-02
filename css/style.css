@@ -1,35 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-}
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
 
-ul {
-  list-style: none;
-}
 /* #region header */
 .header-main {
   justify-content: space-between;
@@ -116,7 +90,6 @@ nav {
 /* #endregion section hero */
 /* #region feature */
 .feature {
-  margin: 120px auto; /* Отступ сверху 120px, центрируем */
 }
 .feature-h-main {
   color: #2e2f42;
@@ -143,89 +116,69 @@ nav {
 /* #region team */
 .team {
   background-color: #f4f4fd; /* Цвет фона */
-  text-align: center;
 }
-.team h2 {
+.team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.tim h3 {
+.team-li {
+  background-color: #ffffff;
+}
+.team-mark {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.tim-product {
+.team-product {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /* #endregion team */
 /* #region portfolio */
 .portfolio {
-  margin: 120px auto;
 }
-.portfolio h2 {
+.portfolio-main {
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-  margin-bottom: 72px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
-.portfolio ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 0;
+.portfolio-banking {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.portfolio li {
-  width: calc((100% - 48px) / 3);
-  border: 1px solid #eee;
-  border-radius: 6px;
-  text-align: left;
+.portfolio-app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.portfolio li img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 15px;
-}
-.portfolio li h3 {
-  margin: 0 0 8px;
-  padding-left: 16px;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.portfolio li p {
-  margin-bottom: 32px;
-  padding-left: 16px;
-  font-size: 0.9rem;
-}
+
 /* #endregion portfolio */
 /* #region footer */
 .footer {
   background-color: #2e2f42;
-  color: #fff;
-  height: 312px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: left;
+  color: #4d5ae5;
 }
-.footer .logo {
-  color: #fff;
-  display: inline-block;
+.footer-logo-span {
+  color: #f4f4fd;
 }
-
-.footer p {
-  margin-top: 10px;
-  max-width: 264px;
-}
-.feature,
-.team,
-.portfolio,
-.footer,
-.header-main {
-  padding-left: 156px;
-  padding-right: 156px;
+.footer-a {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 /* #endregion footer */
