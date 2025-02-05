@@ -95,19 +95,14 @@ nav {
 .feature {
   background-color: #f4f4fd;
 }
-.feature-h-main {
+.feature-strategy {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.feature ul {
-  justify-content: center; /* Центрируем */
-}
-
-.feature p {
+.feature-p {
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
@@ -119,7 +114,7 @@ nav {
   background-color: #f4f4fd;
 }
 .team-main {
-  font-family: 36px;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
